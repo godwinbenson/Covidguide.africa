@@ -1,0 +1,415 @@
+{
+  "Jumbotron": {
+    "title": "Ka anyị jikọta aka luso Nje korona ọgụ"
+  },
+  "Homepage": {
+    "quickLinks": [
+      { "link": "Akara ngwangwa", "id": "Quick Links" },
+      { "link": "Ọnụọgụgụ ndị dị ndụ", "id": "Live Data" },
+      { "link": "Gịnị bụ Nje Korona?", "id": "What is Corona Virus" },
+      { "link": "Nrịbama", "id": "Symptoms" },
+      { "link": "Mgbochi", "id": "Prevention" },
+      { "link": "Jụ akụkọ ụgha", "id": "Debunking Myths" },
+      { "link": "Ajụjụ a na-ajụkarị", "id": "FAQs" }
+    ],
+    "quickActions": [
+      {
+        "title": "Ebe a na-eme nnyocha ahụ",
+        "icon": "testing-centers",
+        "destination": "openModal"
+      },
+      {
+        "title": "Ihe ngosị ịrịbama",
+        "icon": "symptom-checker",
+        "destination": "/checker"
+      },
+      {
+        "title": "Akaraekwentị maka ọsọ enyemaka",
+        "icon": "emergency-numbers",
+        "destination": "openModal"
+      },
+      {
+        "title": "Kpọtụrụ dọkịta",
+        "icon": "doctor-chat",
+        "destination": "openChat"
+      }
+    ]
+  },
+  "LiveData": {
+    "title": "Ọnụọgụgụ ndị dị ndụ",
+    "confirmed": "Ndị a ma bu nje",
+    "recovered": "Ndị na-agbake",
+    "deaths": "Ndị nwụrụ anwụ"
+  },
+  "Definition": {
+    "heading": "Gịnị bụ Nje korona (a na-akpọ kwa ya Covid 19)?",
+    "description": "Nje korona (COVID 19) bụ ọrịa na-efe efe nke si na nje malitere ọhụrụ na Wuhan, China n'ọnwa Disemba, 2019.  Ọrịa a na-akpata ọrịa mgbochi ikuume ma nwee ihe nrịbaama dịka ụkwara, ahụ ọkụ nakwa n'ebe ọ ka njọ, nsogbu ikuba ume ime.",
+    "subHeading": "Kedụ ka o si agbasa?",
+    "howItSpreads": "Ọrịa nje Korona na-agbasa site na nnọkọta nso onye ebughị ya nọdewere onye bu ya mgbe ọ kwara ụkwara maọbụ zee uzere. Ọ na-agbasakwa mgbe mmadụ metụrụ ihe njé ahụ dị aka, mgbe ahụ metụ anya, imi maọbụ ọnụ ha aka."
+  },
+  "Symptoms": {
+    "heading": "Symtoms of Corona Virus",
+    "content": [
+      {
+        "name": "Oke ahụọkụ",
+        "icon": "high-fever"
+      },
+      {
+        "name": "Ike ọgwụgwụ",
+        "icon": "tiredness"
+      },
+      {
+        "name": "Ụkwara ntachi akpịrị",
+        "icon": "dry-cough"
+      },
+      {
+        "name": "Imi ọsụsọ",
+        "icon": "runny-nose"
+      },
+      {
+        "name": "Mgbapịa akpịrị",
+        "icon": "sore-throat"
+      },
+      {
+        "name": "Afọ ọsịsa",
+        "icon": "diarrhea"
+      },
+      {
+        "name": "Imi mkpọchi",
+        "icon": "nasal-congestion"
+      },
+      {
+        "name": "Ahụ mgbu na ahụ ụfụ",
+        "icon": "aches-pains"
+      }
+    ],
+    "actionText": "I nwere ihe nrịbama? Atụla ụjọ",
+    "actionContent": [
+      {
+        "name": "Nwalee ihe nrịbaama",
+        "icon": "symptom-checker",
+        "buttonText": "Mee ya ugbua",
+        "destination": "/checker"
+      },
+      {
+        "name": "Kpọọ Akaraekwentị Gbatagbata",
+        "icon": "emergency-numbers",
+        "buttonText": "Find here",
+        "destination": "openModal"
+      },
+      {
+        "name": "Kpọtụrụ dọkịta",
+        "icon": "doctor-chat",
+        "buttonText": "parịta ụka ebe a.",
+        "destination": "openChat"
+      }
+    ]
+  },
+  "Prevention": {
+    "heading": "PMgbochi Nje Korona",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "title": "Kwọọ ma hichaa aka gị nke ọma oge niile",
+        "description": "Iji ncha na mmiri maọbụ ihe nkwọaka nwere akọhọlụ kwọọ aka nke ọma ga-egbu nje dị gị n'aka.",
+        "icon": "clean-hands"
+      },
+      {
+        "title": "Nọpụ iche",
+        "description": "Mgbe ọbụla mmadụ na-akwa ụkwara maọbụ eze uzere, zere onye ahụ site n'ịnọ n'ebe tere aka, ọ dịkarịa ala otu mita.",
+        "icon": "social-distancing"
+      },
+      {
+        "title": "Zere imetụ anya, imi na ọnụ aka",
+        "description": "Aka na-emetụ ọtụtụ ihe nwere ike metụ na nje. Mgbe ọ batara n'aka, o nwere ike metụ anya, imi maọbụ ọnụ.",
+        "icon": "avoid-eyes"
+      },
+      {
+        "title": "Soro usoro nkurume dị ọcha",
+        "description": "Nke a gụnyere ikpuchi imi gị site n'iji ubuaka gị maọbụ jiri akwụkwọ nhichaike mgbe ị na-akwa ụkwara maọbụ eze uzere. I mechaa, tụfuo akwụkwọ nhichaike ahụ ozugbo.",
+        "icon": "good-hygiene"
+      }
+    ]
+  },
+  "MythAndFacts": {
+    "heading": "Ụgha na Eziokwu",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "false": "Ụgha",
+        "myth": "Ọrịa bụ nke ndị bara ọgaranya",
+        "true": "Eziokwu",
+        "fact": "Nje korona na-emetụta onye ọbụla n'agbanyeghị ma o nwere ego maọbụ na o nweghị. Nje a na-esi n'aka ndị bu ya, fere n'aka ndị ebughị ya."
+      },
+      {
+        "false": "Ụgha",
+        "myth": "Nje Korona anaghị egbu ndị isiojii",
+        "true": "Eziokwu",
+        "fact": "Nje korona nwere ike metụta ma gbuo onye ọcha nakwa onye isi ojii. N'eziokwu, e nweela ọtụtụ ndị isiojii na ndị ọcha nwụrụla n'ihi na ha butere nje a."
+      },
+      {
+        "false": "Ụgha",
+        "myth": "Ịṅụ mmanya na-aba n'anya ga-egbochi m ibute Nje Korona",
+        "true": "Eziokwu",
+        "fact": "Ịṅụ mmanya na-aba n'anya agaghị egbochi gị ibute Nje Korona, kama ọ ga-akpatara gị nnukwu nsogbu. Ịṅụ oke mmanya na-aba n'anya nwere ike kpatara gị ọrịa ọzọ ma mee ka ahụ gị ghara isi ike."
+      },
+      {
+        "false": "Ụgha",
+        "myth": "Naanị ndị kàrà nka ka Nje korona na-enweta",
+        "true": "Eziokwu",
+        "fact": "Onye ọbụla n'agbanyeghị afọ ndụ nwere ike bute ya. Ndị kàrà nka nakwa ndị nwere ọrịa ndị dika (ọrịa mgbochi ikuku, ọrịa mamịrị, ọrịa obi) ga-ebuteli ya ngwangwa."
+      },
+      {
+        "false": "Ụgha",
+        "myth": "Ịwụsa mmanya na-aba n'anya nakwa ọgwụ klorin n'ahụ gị ga-egbu Nje Corona",
+        "true": "Eziokwu",
+        "fact": "Mba. Mmanya na-aba n'anya nakwa Klorin agaghị egbu Nje Korona banyerela mmadụ ahụ. Akọhọl na Klorin nwere ike nye aka mgbochie ya mgbe ọ na-abịabeghị."
+      },
+      {
+        "false": "Ụgha",
+        "myth": "Ọgwụ antibayotik na-egbochi Nje Korona nke ọma",
+        "true": "Eziokwu",
+        "fact": "Mba. Antibayotik anaghị arụgide nje kama arụrụ baktéríà. Ejila antibayotik dịka ọgwụgwọ nakwa mgbochi nje korona"
+      }
+    ]
+  },
+  "FAQ": {
+    "heading": "Ajụjụ a na-ajụkarị",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "question": "Nje na-akpata Korona, o si n'ikuku eje?",
+        "answer": "E nwebeghị ihe a chọpụtara nke na-egosị na nje korona na-esi n'ikuku. Ọrịa ọhụrụ a na-esi na nkuume nke na-agbasa site n'ụkwara nakwa uzere nke onye bu ya maọbụ ọnụ mmiri maọbụ imi. Iji chebe onwe gị, kwọọ aka gị nke ọma site n'iji mmiri nkwọaka nwere akọhọl  maọbụ jiri ncha na mmiri kwọọ aka gị nke ọma."
+      },
+      {
+        "question": "Mmadụ o nwere ike bute nje corona site n'aka onye enweghị ihe nrịbama?",
+        "answer": "Ọrịa Nje Korona na-esitekari n'aka onye bu ya fere n'aka onye ọzọ. Mmadụ nwere ike bute ya n'aka onye enweghị ihe nrịbaama. Mmadụ nwere ike bute ya site n'imetụ ọnụ akụrụngwa maọbụ ihe njé ahụ dị aka."
+      },
+      {
+        "question": "Kedụ onye nwere ike bute ọrịa ọjọọ a?",
+        "answer": "Nje Korona na-emetụta ndị mmadụ, ndị agadi nakwa ndị na-arịabu ọrịa dịka (ọbara mgbali elu, ọrịa obi, ọrịa ọgịrịga, kansa na ọrịa mamịrị) nwere ike bute ya karịsịa."
+      },
+      {
+        "question": "E nwere ọgwụ e ji agwọ nje corona?",
+        "answer": "Ọ dịbeghị. Ka ọ dị ugbua o nwebeghị ọgwụ a rụpụtara iji gbochie nje corona. N'ihi ya, ndị o metụtara ga-anara ọgwụgwọ site n'ihe nrịbama ji ha. Ndị na-arịa nnukwu ọrịa kwesịrị ịnọ n'ụlọ ọgwụ. Ọtụtụ ndị bu nje a na-agbake. Ekele dịrị ndị na-enye aka.\nA ka na-enyocha ọgwụ a rụpụtara iji gwọọ nje a. A ka na-anwale ha. WHO na-agba mbọ ịhazi nrụpụta ọgwụ dị iche iche maka mgbochi na ọgwụgwọ nje korona."
+      },
+      {
+        "question": "Kedụ oge ọ na-ewe iji mara na mmadụ bu nje Korona?",
+        "answer": "Nke a na-egosị oge mmadụ butere nje a nakwa mgbe ihe nrịbaama na-egosị ya n'ahụ. Nke a na-amalite site n'otu ụbọchị ruo ụbọchị iri na anọ, mana karịsịa ụbọchị ise. Anyị ga-eme ka ị mara ka ihe si kwụrụ ka oge na-aga."
+      },
+      {
+        "question": "Kedụ oge nje korona na-anọ n'elu?",
+        "answer": "A maghị oge ole nje na-ebute korona na-anọ n'elu.\nI chee na elu akụrụngwa nwere ike bute nje, jiri ihe nhicha gbuo nje, chebe onwe gị na ndị ọzọ. Jiri mmiri nwere akọhọl kwọọ aka gị, werekwa mmiri na ncha kwọọ aka gị. Emetụla anya gị, ọnụ gị na imi gị aka. "
+      },
+      {
+        "question": "M ga-anwụ ma m bute nje?",
+        "answer": "Nje korona anaghị egbu mmadụ ozugbo. Ndị nwere COVID 19 na-enweta ihe nrịbaama nke gụnyere nkuume na ahụ ọkụ ihe dịka ụbọchị ise ruo isii mgbe e butechara ya ( ọ pụtara na nrịbaama ya na-abịa ụbọchị ise ruo isii, dịka otu ụbọchị ruo ụbọchị iri na anọ). Ọtụtụ ndị mmadụ nwere nje Korona na-arịa obere ọrịa ma gbakee."
+      },
+      {
+        "question": "Kedụ otu m nwere ike isi nye aka ma luso nje korona ọgụ?",
+        "answer": "Mee ka a mara ozugbo ị chọpụtara na mmadụ bu ya. I chee na  ị nọ na mba ébé e nwere nje korona maọbụ hụ onye nwere ihe nrịbaama dịka oke ahụ ọkụ, mgbapịa akpịrị, ụkwara maọbụ nsogbu ikuume. Ọ dị mkpa na ị gara mee nnyocha ahụ."
+      },
+      {
+        "question": "Kedụ mgbe nje a ga-akwụsị?",
+        "answer": "O nweghị onye ma oge ọ ga-abụ mana ihe dị mma bụ na ụwa niile jikọtara aka ọnụ na-achọ ụzọ isi wete nje a n'isi njedebe."
+      }
+    ]
+  },
+  "Footer": {
+    "share": "Zigara ndị ezinaụlọ na ndị enyi"
+  },
+  "Emergency": {
+    "heading": "Chọta akaraekwentị ndị gbatagbata nakwa ebe a na-enyocha ahụ dị gị nso.",
+    "placeholder": "Họrọ steeti gị"
+  },
+  "Checker": {
+    "heading": "Nwalee ma i nwere ihe ize ndụ maọbụ na i nweghị",
+    "nextButton": "Ọzọ",
+    "backButton": "Azu",
+    "HighRisk": {
+      "headline": "You're on High Risk",
+      "description": "Ihe nrịbaama na akụkọ njem mmadụ nwere ike gosị mbido nje korona",
+      "prescription": {}
+    },
+    "LowRisk": {
+      "headline": "You're on Low Risk",
+      "description": "",
+      "prescription": {
+        "title": "Ihe a ga-eme iji wedata ihe ize ndụ dị n'ibute nje",
+        "content": [
+          "Nọrọ n'ụlọ ma ghara ịpụ ezi ọ gwụla o nwere ihe gbata gbata dapụtara",
+          "Nọọrọ onwe gị ọbụladị na be gị",
+          "Wụsa mmanụ mgbochi n'iboụzọ, windo, usekwu, na mbara ebe na-ahụ",
+          "Na-aṅụ mmiri mgbe mgbe ma rie ezigbo nri e siri nke ọma nakwa nri a kwọrọ aka wee sie",
+          "Jiri mmiri na ncha akwọ aka gị nke ọma oge niile ya dịkarịa ala minit iri abụọ",
+          "Na-ekpuchi imi gị (ma mgbe ị nọ n'ụlọ) ma mgbe ị na-akwa ụkwara maọbụ ezi imi nakwa mgbe ị na-elekọta onye ọrịa"
+        ]
+      }
+    },
+    "Quiz": [
+      {
+        "question": "Ị gara na mba nwere nje Korona nke ukwuu n'ihe dịka ụbọchị 14-20 gara aga?",
+        "options": [
+          {
+            "answer": "Ee, agara m mba nwere ọtụtụ ndị bu nje Korona",
+            "risk": "high"
+          },
+          {
+            "answer": "Mba, agbabeghị m mba nwere ọtụtụ ndị bu nje Korona",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Gị na onye e mere nnyocha ma chọpụta na o bu nje Korona anọkọtala ọnụ ihe dịka ụbọchị 14-20 gara aga?",
+        "options": [
+          {
+            "answer": "Ee, mụ na ya ahụla",
+            "risk": "high"
+          },
+          {
+            "answer": "Mba, amaghị m onye ọbụla",
+            "risk": "low"
+          },
+          {
+            "answer": "Echeghị m",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "I nwere otu n'ime ọrịa ndị a?",
+        "options": [
+          {
+            "answer": "Ọrịa mamịrị",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọbara mgbali elu",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọrịa obi",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọrịa imeji",
+            "risk": "high"
+          },
+          {
+            "answer": "Oke ibu",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọrịa ọgịrịga",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọrịa ikuume (asịma)",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọrịa kansa maọbụ obirinajịọcha",
+            "risk": "high"
+          },
+          {
+            "answer": "O nweghị",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Kedụ afọ ị dị na ya?",
+        "options": [
+          {
+            "answer": "O rughị afọ 65",
+            "risk": "low"
+          },
+          {
+            "answer": "Ọ karịrị afọ maọbụ afọ 65 kpọmkwem",
+            "risk": "high"
+          }
+        ]
+      },
+      {
+        "question": "Ahụ gị ọ na-ekpo ọkụ karịa 37 digrii sesius?",
+        "options": [
+          {
+            "answer": "Mba",
+            "risk": "low"
+          },
+          {
+            "answer": "Ee",
+            "risk": "high"
+          }
+        ]
+      },
+      {
+        "question": "Ị na-enwetakarị ihe nrịbaama nke ọbụla na ndị a?",
+        "options": [
+          {
+            "answer": "Ahụ ọkụ maọbụ oke oyi",
+            "risk": "high"
+          },
+          {
+            "answer": "Ụkwara ebighị ebi na mgbapịa akpịrị",
+            "risk": "high"
+          },
+          {
+            "answer": "Mgbochi ikuume",
+            "risk": "high"
+          },
+          {
+            "answer": "Obere na nnukwu ahụ mgbu",
+            "risk": "high"
+          },
+          {
+            "answer": "Imi ọsụsọ na imi mkpọchi",
+            "risk": "high"
+          },
+          {
+            "answer": "Isi ọwụwa",
+            "risk": "high"
+          },
+          {
+            "answer": "Ụkwara mmiri mmiri",
+            "risk": "high"
+          },
+          {
+            "answer": "Ike ọgwụgwụ",
+            "risk": "high"
+          },
+          {
+            "answer": "O nweghị ",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Ihe nrịbaama ọ dị ọtụtụ nke na ọ na-esiri gị ike ime ọtụtụ Ihe ndị ọzọ?",
+        "options": [
+          {
+            "answer": "Ee- ọ na-esiri m ike ime ihe ọzọ m na-emebu",
+            "risk": "high"
+          },
+          {
+            "answer": "Mba- ahụ dị m mma ime ihe m na-emebu",
+            "risk": "low"
+          }
+        ]
+      }
+    ],
+    "DoctorChat": "Kpọtụrụ dọkịta",
+    "FamilyAndFriends": "Gwa ndị ezinaụlọ gị na ndị enyi gị ka ha gaa nwalee ahụ ha. Nyere ha aka ka ha chọpụta ihe nrịbaama ma nweta ahụike dị mma!",
+    "Disclaimer": "Enwebeghị nchọcha ahụike zuru ezu. Nke a nwere ike gụnye nchekwa pụọ na nje korona. Ozi ahụ na-enye aka ike ka ndị mmadụ mara ihe na-eme ọ bụghị ịnọchị anya ntuziaka dọkịta."
+  },
+  "TestingCentersIn": "Testing Centers in",
+  "Regions": {
+    "North Central": "North Central",
+    "North East": "North East",
+    "North West": "North West",
+    "South South": "South South",
+    "South East": "South East",
+    "South West": "South West"
+  }
+}

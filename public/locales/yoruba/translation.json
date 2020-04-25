@@ -1,0 +1,415 @@
+{
+  "Jumbotron": {
+    "title": "Jẹ́ kí a pawọ́pọ̀ gbógun ti kòkòrò Kòrónà"
+  },
+  "Homepage": {
+    "quickLinks": [
+      { "link": "Ibi àsárétẹ̀", "id": "Quick Links" },
+      { "link": "Détà Ojú-ẹsẹ̀", "id": "Live Data" },
+      { "link": "Kí ni kòkòrò Kòrónà", "id": "What is Corona Virus" },
+      { "link": "Àmì àìsàn", "id": "Symptoms" },
+      { "link": "Ìdènà àrùn", "id": "Prevention" },
+      { "link": "Dídẹ́kun àhesọ àti àròsọ", "id": "Debunking Myths" },
+      { "link": "Àwọn ìbéèrè tí ó gbajúmọ̀", "id": "FAQs" }
+    ],
+    "quickActions": [
+      {
+        "title": "Àwọn Ibùdó-Ìṣàyẹ̀wò",
+        "icon": "testing-centers",
+        "destination": "openModal"
+      },
+      {
+        "title": "Aṣàgbéyẹ̀wò Àmì-Àìsàn",
+        "icon": "symptom-checker",
+        "destination": "/checker"
+      },
+      {
+        "title": "Ojú-òpó fún ìpè Pàjáwìrì",
+        "icon": "emergency-numbers",
+        "destination": "openModal"
+      },
+      {
+        "title": "Bá dókítà kan sọ̀rọ̀",
+        "icon": "doctor-chat",
+        "destination": "openChat"
+      }
+    ]
+  },
+  "LiveData": {
+    "title": "Détà Ojú-ẹsẹ̀",
+    "confirmed": "Iye Àwọn tí a fìdí rẹ̀ múlẹ̀ pé wọ́n ní kòkòrò àrùn náà",
+    "recovered": "Iye Àwọn tí́ ara wọn ti yá",
+    "deaths": "Iye àwọn tó kú"
+  },
+  "Definition": {
+    "heading": "Kí ni kòkòrò àrùn Kòrónà (tí a mọ̀ sí COVID-19)?",
+    "description": "Kòkòrò àrùn Kòrónà (COVID-19) jẹ́ àrùn àkóràn tí kòkòrò kan tí ó bẹ̀rẹ̀ ní Wuhan, China ní oṣù kejìlá, ọdún 2019 ń fà. Àrùn náà ń fa àìsàn tí ó ń dí èémí lọ́wọ́ (bí i òtútù) pẹ̀lú àwọn àmì àìsàn bí i Ikọ́, ibà, ní àwọn ìgbà tí ó bá le, ẹni náà kò ní lè mi dáadáa.",
+    "subHeading": "Báwo ni ó ṣe ń tàn ká?",
+    "howItSpreads": "Kòkòrò àrùn Kòrónà ń tàn ká nígbà tí èèyàn bá súnmọ́ ẹni tí ó ti kó kòkòrò tí ó sín tàbí húkọ́. Ó tún máa ń tàn ká nígbà tí èèyàn bá fọwọ́ kan ibi tí àrùn náà wà, tí ó sì fọwọ́ náà kan ojú, imú tàbí ẹnu."
+  },
+  "Symptoms": {
+    "heading": "Symtoms of Corona Virus",
+    "content": [
+      {
+        "name": "Ibà",
+        "icon": "high-fever"
+      },
+      {
+        "name": "Rírẹni",
+        "icon": "tiredness"
+      },
+      {
+        "name": "Ikọ́ gbígbẹ",
+        "icon": "dry-cough"
+      },
+      {
+        "name": "Imú rírin",
+        "icon": "runny-nose"
+      },
+      {
+        "name": "Egbò ọ̀nà-ọ̀fun",
+        "icon": "sore-throat"
+      },
+      {
+        "name": "Ìgbẹ́ gbuuru",
+        "icon": "diarrhea"
+      },
+      {
+        "name": "Imú dídí",
+        "icon": "nasal-congestion"
+      },
+      {
+        "name": "Ara ríro àti ara dídunni",
+        "icon": "aches-pains"
+      }
+    ],
+    "actionText": "Ṣé o ní àmì àìsàn? Má bẹ̀rù",
+    "actionContent": [
+      {
+        "name": "Gbìyànjú Aṣàgbéyẹ̀wò Àmì-Àìsàn",
+        "icon": "symptom-checker",
+        "buttonText": "Gbìyànjú ẹ̀ nísìnyí",
+        "destination": "/checker"
+      },
+      {
+        "name": "Pe àwọn nọ́mbà ìpè pàjáwìrì",
+        "icon": "emergency-numbers",
+        "buttonText": "Wá a níbí",
+        "destination": "openModal"
+      },
+      {
+        "name": "Bá dókítà kan sọ̀rọ̀",
+        "icon": "doctor-chat",
+        "buttonText": "Bá sọ̀rọ̀",
+        "destination": "openChat"
+      }
+    ]
+  },
+  "Prevention": {
+    "heading": "Ìdènà Kòkòrò Kòrónà",
+    "source": "Orísun: World Health Organization",
+    "content": [
+      {
+        "title": "Máa fọ ọwọ́ rẹ déédé",
+        "description": "Fífọ ọwọ́ pẹ̀lú ọṣẹ àti omi tàbí fífi ìpawọ́ apakòkòrò tí a fi ọtí ṣe máa pa àwọn kòkòrò tí ó lè wà ní ọwọ́ rẹ.",
+        "icon": "clean-hands"
+      },
+      {
+        "title": "Fi ààyè sílẹ̀ láàárín ìwọ àti àwọn èèyàn",
+        "description": "Fi ààyè mítà kan (ìwọ̀n ẹsẹ̀ bàtà mẹ́ta) ó kéré jù sílẹ̀ láàárín ìwọ àti ẹnikẹ́ni tí ó bá ń sín tàbí húkọ́.",
+        "icon": "social-distancing"
+      },
+      {
+        "title": "Yẹra fún fífi ọwọ́ kan ojú, imú àti ẹnu",
+        "description": "Oríṣìíríṣi ni àwọn nǹkan tí ọwọ́ máa ń kàn, ó sì lè kó kòkòrò. Tí ó bá sì kó kòkòrò, ó lè mú kòkòrò náà wọ ojú, imú tàbí ẹnu.",
+        "icon": "avoid-eyes"
+      },
+      {
+        "title": "Ṣe àwọn ohun tí ó ń ṣe àrídájú ìlera fún èémí",
+        "description": "Èyí túmọ̀ sí bíbo ẹnu àti imú pẹ̀lú ìgbọ̀nwọ́ tàbí bébà fẹ́lẹ́fẹ́lẹ́ nígbà tí o bá sín tàbí húkọ́. Kí o sì ju bébà fẹ́lẹ́fẹ́lẹ́ náà nù kíákíá.",
+        "icon": "good-hygiene"
+      }
+    ]
+  },
+  "MythAndFacts": {
+    "heading": "Àròsọ àti Òtítọ́",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "false": "Irọ́ ni",
+        "myth": "Àwọn olówó nìkan ni ó ń kó àrùn yìí",
+        "true": "Òtítọ́ ni",
+        "fact": "Ẹnikẹ́ni ni ó ń kó kòkòrò Kòrónà láìfi ti ipò wọn ṣe. Kòkòrò yìí lè tàn láti ara èèyàn kan sí òmíràn."
+      },
+      {
+        "false": "Irọ́ ni",
+        "myth": "Kòkòrò Kòrónà kì í pa àwọn aláwọ̀ dúdú.",
+        "true": "Òtítọ́ ni",
+        "fact": "Kòkòrò kòrónà lè mú ẹnikẹni láti ẹ̀yà kankan kí ó sì pá. Kódà wọn tí ṣe àkọsílẹ̀ àwọn ènìyàn dúdú tí wọ́n kú látàrí kíkó àrùn yìí."
+      },
+      {
+        "false": "Irọ́ ni",
+        "myth": "Ọtí mímu ò ní jẹ́ kí n kó àrùn kòrónà",
+        "true": "Òtítọ́ ni",
+        "fact": "Otí mímu kò ní dáàbò bò ẹ láti má kó COVID-19 ó sì léwu. Mímu ọtí ni gbogbo ìgbà tàbí àmujù lè dá kun ewu níní ìṣòro pẹ̀lú ìlera rẹ."
+      },
+      {
+        "false": "Irọ́ ni",
+        "myth": "Àwọn àgbàlagbà nìkan ni kòkòrò kòrónà máa mú",
+        "true": "Òtítọ́ ni",
+        "fact": "Kò sí ẹni tí kò lè kó àrùn yìí. Ó lè ṣe ìpalára púpọ̀ fún àwọn àgbàlagbà àti àwọn tí wọ́n ni àìsàn lára tẹ́lẹ̀ (bí i àrùn ìtọ̀ ṣúgà, àìsàn ọkàn)."
+      },
+      {
+        "false": "Irọ́ ni",
+        "myth": "Fífọ́n ọtí tàbí kolorínì sí gbogbo ara ń pa kòkòrò kòrónà tuntun",
+        "true": "Òtítọ́ ni",
+        "fact": "Rárá. Kò sí ọtí tàbí kolorínì tí ó lè pa àwon kòkòrò tí ó ti wọnú ara. Ọti àti kolorínì lè wúlò fún pípa kòkòrò pẹpẹ."
+      },
+      {
+        "false": "Irọ́ ni",
+        "myth": "Oògùn apààrùn múnádóko láti dènà àti wo kòkòrò kòrónà tuntun náà",
+        "true": "Òtítọ́ ni",
+        "fact": "Rárá, oògùn apakòkòrò batéríà kò lè kojú kòkòrò fáírọ́ọ̀sì, àyàfi batéríà. Apakòkòrò batéríà kìí ṣe ọna ìdábòòbò tàbí ìṣèwòsàn."
+      }
+    ]
+  },
+  "FAQ": {
+    "heading": "Àwon ìbéèrè tí wọ́n sábàá máa ń bèrè.",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "question": "Ṣé kòkòrò tí ó ń fa kòkòrò àrùn COVID-19 ṣe é kó nínú atẹ́gùn?",
+        "answer": "Wọn kò tí ì jábọ̀ pé ẹnikẹ́ni kó kòkòrò àrùn COVID-19 láti inú atẹ́gùn, wọn kò sí gbàgbọ́ pé ó jẹ́ ọ̀nà kan tí àwọn èèyàn ń gbà kó kòkòrò àrùn náà gẹ́gẹ́ bí ẹ̀rí tí ó wà nílẹ̀ ṣe sọ. Kòkòrò àrùn Kòrónà tuntun yìí jẹ́ kòkòrò tí ó ń dí èémí lọ́wọ́ tí ó sì ń tàn ká nípa ikun tàbí itọ́ tí ó jáde nígbà tí ẹnì tí ó ní àrùn náà bá húkọ́ tàbí sín, tàbí fọn ikunmú. Láti lè dáàbò bo ara rẹ, máa fọ ọwọ́ rẹ déédé pẹ̀lú ìpawọ́ apakòkòrò tí a fi ọtí ṣe tàbí kí o fọ̀ ọ́ pẹ̀lú ọṣẹ àti omi."
+      },
+      {
+        "question": "Ṣé COVID-19 ṣe é kó lára ẹni tí kò ní àmì àìsàn?",
+        "answer": "Kòkòrò Àrùn Kòrónà (COVID-19) máa ń sábàá tàn ká láti ara èèyàn kan sí ara ẹlòmíràn. Kòkòrò Àrùn Kòrónà lè tàn láti ara àwọ̣n èèyàn tí kò ṣàfihàn àmì àìsàn. Èèyàn lè kó Kòkòrò Àrùn Kòrónà nípa fífi ọwọ́ kan nǹkan tàbí ibi tí ó bá ní kòkòrò náà lórí."
+      },
+      {
+        "question": "Ta ni ó wà ní ewu níní àìsàn gidi?",
+        "answer": "Bí ó tilẹ̀ jẹ́ wí pé a ṣì ń kọ́ nípa bí Kòkòrò Àrùn Kòrónà-19 ṣe ń nípa lara àwọn è̀èyàn."
+      },
+      {
+        "question": "Ṣé òògùn àjẹsára, òògùn tàbí ìtọ́jú kankan wà fún kòkòrò àrùn COVID-19?",
+        "answer": "Kò tí ì sí. Títí di àsìkò yìí, kò tí ì sí òògùn agbógunti-kòkòrò kan tí a lè fi dẹ́kun tàbí ṣètọ́jú kòkòrò àrùn COVID-19. Ṣùgbọ́n, gbogbo àwọn tí wọ́n bá kó àrùn náà nílò ìtọ́jú láti lè ṣe àdínkù àmì àìsàn. Àwọn èèyàn tí wọ́n bá ń ṣàìsàn gidi nílò láti dúró ní ilé ìwòsàn. Ọ̀pọ̀lọpọ̀ àwọn aláìsàn ni ara wọn ń yá, látàrí ìtọ́jú tí wọ́n ń rí gbà.\nÌwádìí ṣì ń lọ lọ́wọ́ lórí òògùn  àti òògùn agbógunti-kòkòrò ní pàtó. Wọ́n ṣì ń gbé wọn yẹ̀wò lọ́wọ́. Àjọ WHO ṣì ń ṣiṣẹ́ láti ṣe àgbéjáde òògùn agbógunti-kòkòrò láti lè dẹ́kun àti láti ṣe ìtọ́jú kòkòrò àrùn COVID-19."
+      },
+      {
+        "question": "Báwo ni àkókò ìdíbọ́n COVID-19 ṣe gùn tó?",
+        "answer": "Àkókò ìdìbọ́n túmọ̀ si àsìkò tí a kó kòkòrò yìí àti ìbẹ̀rẹ̀ àti máa rí àpẹẹrẹ àìsàn yìí. Èyí tó wọ́pọ̀ nínú ìṣirò fún àsìkò ìdíbọ́n COVID-19 ni ọjọ́ kan sí ọjọ́ mẹrìnlá, èyí tó wọ́pọ̀ láàrin ọjọ́ karùn-ún. Àwọn ìṣirò yìí ni a ó máa ṣe àfikún sí bí a bá ṣe ń rí détà sí i."
+      },
+      {
+        "question": "Báwo ni kòkòrò yìí ṣe ń pẹ́ tó lórí àwọn nǹkan?",
+        "answer": "Ìmọ̀ bí kòkòrò tó ń fà COVID-19 ṣe ń pẹ́ sí lára nǹkan kò dájú, ṣùgbọ́n ó fẹ́ fi àbùdá jọ àwọn kòkòrò kòrónà yòókù.\nTí ó bá lérò wí pé kòkòrò náà lè ti wà lórí nǹkankan, nù ún pèlú apakòkòrò láti pa kòkòrò yìí, kí ò sì dáàbò bo ara rẹ àti àwọn ẹlòmíràn. Fọ ọwọ́ rẹ pẹ̀lú ìpawọ́ àpakòkòrò tí a fi ọtí ṣe tàbí kí ó fọ̀ ọ́ pẹ̀lú oṣẹ àti omi. Yẹra láti máa fọwọ́ kan ojú, imú tàbí ẹnu."
+      },
+      {
+        "question": "Ṣé mo máa kú tí mo bá kó kòkòrò yìí?",
+        "answer": "COVID-19 kìí ṣe ìdájọ́ ikú. Àwọn àpẹẹrẹ àìsàn tí yóò hande lára àwọn ènìyàn tí wọ́n ni COVID-19 ni àpẹẹrẹ ìṣòro pẹ̀lú èémí tó ṣẹ́pẹ́rẹ́ àti ibà, láàrin ọjọ́ karùn-ún sí ìkẹfà lẹ́yìn àkóràn (àsìkò ìdíbọ́n ọjọ́ márùn-ún sí mẹ́fà, ìwọ̀n ọjọ́ kìn-ín-ní sí kẹrìnlá). Ọ̀pọ̀lọpọ̀ àwọn ènìyàn tí wọ́n kó kòkòrò COVID-19 ni wọn máa ń àìsàn níwọ̀nbà tí wọ́n yóò sí bọ́sípò padà."
+      },
+      {
+        "question": "Báwo ni mò ṣe lè kojú ìṣòro àjàkálẹ̀ àrùn kòrónà yìí?",
+        "answer": "Tètè sọ ìṣẹ̀lẹ̀ tí ẹ bá fura si láí jáfara. Tí ó bá lérò wí pé ó ti rin ìrìn-àjò lọ sí àwọn orílẹ̀-èdè tí àìsàn kòrónà yìí tí ń jà tàbí o ti súnmọ́ ẹni tí ó ní àwọn àpẹẹrẹ àìsàn bíi ibà líle, egbò ọ̀nà-ọ̀fun, Ikọ́ gbígbẹ tàbí ìnira pẹ̀lú èémí. Ó ṣe ppàtàkì láti lọ ṣe àyẹ̀wò."
+      },
+      {
+        "question": "Nígbà wo ni àjàkálẹ̀ yìí yóò tán?",
+        "answer": "Kò sí ẹni tí ó mọ ọjọ́ kan ní pàtó àmọ́ ìròyìn ayọ̀ ni pé ìṣọ̀kan wà káàkiri àgbáyé ní àkókò yìí láti wá ojútùú kánrin sí àjàkálẹ̀ yìí láìpẹ́ láì jìnnà."
+      }
+    ]
+  },
+  "Footer": {
+    "share": "Pín in pẹ̀lú ẹbí àti ará"
+  },
+  "Emergency": {
+    "heading": "Wá nọ́mbà ìpè pàjáwìrì àti ibi ìṣàyẹ̀wò nítòsí rẹ",
+    "placeholder": "Yan ìpínlẹ̀ rẹ"
+  },
+  "Checker": {
+    "heading": "Mọ̀ bí o bá wà léwu tàbí o kò sí léwu",
+    "nextButton": "Èyí tí ó kàn",
+    "backButton": "Pada",
+    "HighRisk": {
+      "headline": "O wà nínú ewu tó ga jù",
+      "description": "Ó ṣe É ṣe Kí Àwon Àmì-Àìsàn Àti Ìtàn ṣàfihàn Ìpèlè Àkọ́kọ́ kòkòrò àrùn Kòrónà",
+      "prescription": {}
+    },
+    "LowRisk": {
+      "headline": "You're on Low Risk",
+      "description": "",
+      "prescription": {
+        "title": "Ìlànà ìṣọ́ra fún ìṣàdínkù ewu kíkó kòkòrò àkóràn",
+        "content": [
+          "Dúró nílé kí o sì má ṣe jáde àyàfi tí ó bá jẹ́ pàjáwìrì",
+          "Gbìyànjú láti máa fi ààyè sílẹ̀ láàárín ìwọ àti ẹnikẹ́ni nílé náà.",
+          "Fi apakòkòrò pa àwọn ibi kọ̀ọ̀kan bí i ilẹ̀kùn, fèrèsé, pẹpẹ ilé ìdáná àti ilẹ̀ balùwẹ̀.",
+          "Máa mu omi dáadáa kí o sì máa jẹ oúnjẹ tí wọ́n sè jinná tí ó ń ṣe ara lóore",
+          "Máa fọ ọwọ́ rẹ pẹ̀lú omi àti ọṣẹ fún ogún ìṣẹ́jú àáyá",
+          "Lo ìbòjú-bomú (kódà nínú ilé) tí o bá ń húkọ́ tàbí sín àti bí o bá ń tọ́jú ẹni tí ó ń ṣàárẹ̀."
+        ]
+      }
+    },
+    "Quiz": [
+      {
+        "question": "Ǹjẹ́ ó rin ìrìnàjò láìpẹ́ yìí sí àwọn ìlú tí wọ́n tí ni  COVID-19 tí ó lọ́ọ̀rìn láàrin ọjọ́ kẹrìnlá sí ogúnjọ́?",
+        "options": [
+          {
+            "answer": "Bẹ́ẹ̀ni, mo ti rin ìrìn-àjò lọ sí àwọn ìlú tí àrùn yìí ti pọ̀.",
+            "risk": "high"
+          },
+          {
+            "answer": "NRárá, mi kò tíì rin ìrìn-àjò lọ sí àwọn ìlú tí àrùn ti pọ̀.",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Ǹjẹ́ o ti súnmọ́ ẹnìkan tó ní COVID-19 láàrin ọjọ́ kẹrìnlá àti ogúnjọ́ tó kẹ́yìn yìí?",
+        "options": [
+          {
+            "answer": "Bẹ́ẹ̀ni mo ní sún mọ́ ọn",
+            "risk": "high"
+          },
+          {
+            "answer": "Rárá, mi ò mọ̀",
+            "risk": "low"
+          },
+          {
+            "answer": "Kò dájú",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Ǹjẹ́ o ní ọ̀kan lára àwọn àrùn yìí tẹ́lẹ̀?",
+        "options": [
+          {
+            "answer": "Àìsàn ìtọ̀ ṣúgà",
+            "risk": "high"
+          },
+          {
+            "answer": "Ẹ̀jẹ̀ ríru",
+            "risk": "high"
+          },
+          {
+            "answer": "Àìsàn ọkàn",
+            "risk": "high"
+          },
+          {
+            "answer": "Àìsàn kíndìnrín",
+            "risk": "high"
+          },
+          {
+            "answer": "Ìsanrajù (BMI tí ó ju 40)",
+            "risk": "high"
+          },
+          {
+            "answer": "Chronic lung diseases",
+            "risk": "high"
+          },
+          {
+            "answer": "Àìsàn ọ̀fun",
+            "risk": "high"
+          },
+          {
+            "answer": "Àrùn jẹjẹrẹ tàbí HIV/AIDS",
+            "risk": "high"
+          },
+          {
+            "answer": "Kò sí èyíkéyìí nínú wọn",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Kí ni ọ̀wọ́ ọjọ́ orí rẹ?",
+        "options": [
+          {
+            "answer": "Kò tó ọdún márùn-ún dín láàdọ́rìn",
+            "risk": "low"
+          },
+          {
+            "answer": "Jù tàbí jẹ́ ọdún márùn-ún dín láàdọ́rìn gérégé",
+            "risk": "high"
+          }
+        ]
+      },
+      {
+        "question": "Ǹjẹ́ ìwọ̀n oru ara rẹ jú dìgírì 37 lọ?",
+        "options": [
+          {
+            "answer": "Bẹ́ẹ̀ kọ́",
+            "risk": "low"
+          },
+          {
+            "answer": "Bẹ́é ni",
+            "risk": "high"
+          }
+        ]
+      },
+      {
+        "question": "Ǹjẹ́ ó kẹ́ẹ́fín àwọn ọ̀kan nínú àpẹẹrẹ àìsàn yìí léraléra?",
+        "options": [
+          {
+            "answer": "Ibà tàbí òtútù tó lọ́ọ̀rìn",
+            "risk": "high"
+          },
+          {
+            "answer": "Ikọ́ lemọ́lemọ́ àti ọgbẹ́ ọ̀fun",
+            "risk": "high"
+          },
+          {
+            "answer": "Ìnira èémí",
+            "risk": "high"
+          },
+          {
+            "answer": "Ara ríro díẹ̀ sí líle",
+            "risk": "high"
+          },
+          {
+            "answer": "Ọ̀fìnkìn/imú rínrin",
+            "risk": "high"
+          },
+          {
+            "answer": "Ẹ̀fọ́rí",
+            "risk": "high"
+          },
+          {
+            "answer": "Ikọ́ (pẹ̀lú ikun)",
+            "risk": "high"
+          },
+          {
+            "answer": "Ìrẹ̀wẹ̀sì tó ṣẹ́pẹ́rẹ́",
+            "risk": "high"
+          },
+          {
+            "answer": "Kò sí èyíkéyìí nínú wọn",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Ǹjẹ́ àwọn àpẹẹrẹ àìsàn wonyi lágbára tí ó sì ń di ẹ lọ́wọ́ láti ṣe àwọn ohun tí ó máa ṣe?",
+        "options": [
+          {
+            "answer": "Bẹ́ẹ̀ni - Ó nira láti ṣe àwọn ohun ti mo ma n se",
+            "risk": "high"
+          },
+          {
+            "answer": "Rárá - Ara mi dá ṣáká láti ṣe àwọn ohun tí mo má ń ṣe.",
+            "risk": "low"
+          }
+        ]
+      }
+    ],
+    "DoctorChat": "Bá dókítà kan sọ̀rọ̀",
+    "FamilyAndFriends": "Ní kí ẹbí àti àwọn ọ̀rẹ́ rẹ ṣe àyẹ̀wò yìí. Ràn wọ́n lọ́wọ́ láti jẹ ki wọn mọ àpẹẹrẹ àìsàn nígbà tí kò tí ì ì pẹ́ lára kí wọ́n sì gba ìtọ́jú lásìkò.",
+    "Disclaimer": "Èyí kò dájú nínú ètò ìlèra. Èyí lè jẹ àwọn ọ̀nà abọ́dé fún àbò láti kojú àrùn kòrónà. Irú àlàyé yìí kàn wà fún àlàyé ṣíṣe lásán ni, kìí ṣe ohun tí o lè fi rọ́pò àmọ̀ràn dókítà."
+  },
+  "TestingCentersIn": "Àwọn Ibùdó Ìṣàyẹ̀wò ní",
+  "Regions": {
+    "North Central": "Àringbùngbùn Àríwá",
+    "North East": "Àríwá Ìlà-Oòrùn",
+    "North West": "Àríwá Ìwọ̀-Oòrùn",
+    "South South": "Gúúsù",
+    "South East": "Gúúsù Ìlà-Oòrùn",
+    "South West": "Gúúsù Ìwọ̀-oòrùn"
+  }
+}

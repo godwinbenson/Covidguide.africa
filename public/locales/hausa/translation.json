@@ -1,0 +1,417 @@
+{
+  "Jumbotron": {
+    "title": "Let's fight Corona Virus together"
+  },
+  "Homepage": {
+    "quickLinks": [
+      { "link": "Quick Links", "id": "Quick Links" },
+      { "link": "Live Data", "id": "Live Data" },
+      { "link": "What is Corona Virus", "id": "What is Corona Virus" },
+      { "link": "Symptoms", "id": "Symptoms" },
+      { "link": "Prevention", "id": "Prevention" },
+      { "link": "Debunking Myths", "id": "Debunking Myths" },
+      { "link": "FAQs", "id": "FAQs" }
+    ],
+    "quickActions": [
+      {
+        "title": "Testing Centers",
+        "icon": "testing-centers",
+        "destination": "openModal"
+      },
+      {
+        "title": "Symptom Checker",
+        "icon": "symptom-checker",
+        "destination": "/checker"
+      },
+      {
+        "title": "Emergency Numbers",
+        "icon": "emergency-numbers",
+        "destination": "openModal"
+      },
+      {
+        "title": "Chat with a Doctor",
+        "icon": "doctor-chat",
+        "destination": "openChat"
+      }
+    ]
+  },
+  "LiveData": {
+    "title": "Live data",
+    "content": [
+      {
+        "title": "Confirmed cases",
+        "data": 174
+      },
+      {
+        "title": "Recoveries",
+        "data": 9
+      },
+      {
+        "title": "Deaths",
+        "data": 2
+      }
+    ]
+  },
+  "Definition": {
+    "heading": "What is Corona Virus (Also known as Covid-19)?",
+    "description": "Coronavirus (COVID-19) is a infectious disease caused by a new virus that began in Wuhan, China in December 2019. The disease causes respiratory illness (like the flu) with symptoms such as cough, fever, and in some severe cases, difficulty in breathing.",
+    "subHeading": "How it spreads?",
+    "howItSpreads": "Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose or mouth."
+  },
+  "Symptoms": {
+    "heading": "Symtoms of Corona Virus",
+    "content": [
+      {
+        "name": "High fever",
+        "icon": "high-fever"
+      },
+      {
+        "name": "Tiredness",
+        "icon": "tiredness"
+      },
+      {
+        "name": "Dry cough",
+        "icon": "dry-cough"
+      },
+      {
+        "name": "Runny nose",
+        "icon": "runny-nose"
+      },
+      {
+        "name": "Sore throat",
+        "icon": "sore-throat"
+      },
+      {
+        "name": "Diarrhea",
+        "icon": "diarrhea"
+      },
+      {
+        "name": "Nasal congestion",
+        "icon": "nasal-congestion"
+      },
+      {
+        "name": "Aches and pains",
+        "icon": "aches-pains"
+      }
+    ],
+    "actionText": "Have symptoms? Don't panic",
+    "actionContent": [
+      {
+        "name": "Try Symptoms Checker",
+        "icon": "symptom-checker",
+        "buttonText": "Try now",
+        "destination": "/checker"
+      },
+      {
+        "name": "Call Emergency lines",
+        "icon": "emergency-numbers",
+        "buttonText": "Find here",
+        "destination": "openModal"
+      },
+      {
+        "name": "Chat with a Doctor",
+        "icon": "doctor-chat",
+        "buttonText": "Chat here",
+        "destination": "openChat"
+      }
+    ]
+  },
+  "Prevention": {
+    "heading": "Prevention of Coronavirus",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "title": "Regularly and thoroughly clean your hands",
+        "description": "Washing your hands with soap and water or using alcohol-based hand rubs kill viruses that may be on your hands",
+        "icon": "clean-hands"
+      },
+      {
+        "title": "Maintain social distancing",
+        "description": "Maintain at least 1 metre (3 feet) distance between yourself and anyone that is coughing or sneezing",
+        "icon": "social-distancing"
+      },
+      {
+        "title": "Avoid toughing eyes, nose and mouth",
+        "description": "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth.",
+        "icon": "avoid-eyes"
+      },
+      {
+        "title": "Follow good respiratory hygiene",
+        "description": "This means covering your mouse and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
+        "icon": "good-hygiene"
+      }
+    ]
+  },
+  "MythAndFacts": {
+    "heading": "Myths & facts",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "false": "false",
+        "myth": "This disease only affect rich people",
+        "true": "true",
+        "fact": "Coronavirus affects anyone irrespective of their social or economic status. This virus can be transmitted from infected people to another"
+      },
+      {
+        "false": "false",
+        "myth": "Coronavirus doesn’t kill black people",
+        "true": "true",
+        "fact": "Coronavirus can affect and kill anyone of any race. In Fact they have been recorded cases of people of colour who have died as a result of contracting the virus"
+      },
+      {
+        "false": "false",
+        "myth": "Drinking Alcohol will prevent me from contracting Coronavirus",
+        "true": "true",
+        "fact": "Drinking alcohol does not protect you against COVID-19 and can be dangerous. Frequent or excessive alcohol consumption can increase your risk of health problems."
+      },
+      {
+        "false": "false",
+        "myth": "Coronavius only affect Older People only",
+        "true": "true",
+        "fact": "People of all ages can be infected. Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable."
+      },
+      {
+        "false": "false",
+        "myth": "Spraying alcohol or chlorine all over your body kills the new coronavirus",
+        "true": "true",
+        "fact": "No. Alcohol or chlorine will not kill viruses that have already entered your body. Alcohol & chlorine can be useful to disinfect surfaces."
+      },
+      {
+        "false": "false",
+        "myth": "Antibiotics effective in preventing and treating the new coronavirus",
+        "true": "true",
+        "fact": "No, antibiotics do not work against viruses, only bacteria. Antibiotics should not be used as a means of prevention or treatment."
+      }
+    ]
+  },
+  "FAQ": {
+    "heading": "Frequently Asked Questions",
+    "source": "Source: World Health Organization",
+    "content": [
+      {
+        "question": "Can the virus that causes COVID-19 be transmitted through the air?",
+        "answer": "Airborne spread has not been reported for COVID-19 and it is not believed to be a major driver of transmission based on available evidence. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water."
+      },
+      {
+        "question": "Can CoVID-19 be caught from a person who has no symptoms?",
+        "answer": "Coronavirus Disease 2019 (COVID-19) is most often spread from person to person. COVID-19 may be spread by people who are not showing symptoms. A person can get COVID-19 by touching a surface or object that has the virus on it."
+      },
+      {
+        "question": "Who is at risk of developing severe illness?",
+        "answer": "While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. "
+      },
+      {
+        "question": "Is there a vaccine, drug or treatment for COVID-19?",
+        "answer": "Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.\nPossible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19."
+      },
+      {
+        "question": "How long is the incubation period for COVID-19?",
+        "answer": "The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."
+      },
+      {
+        "question": "How long does the virus survive on surfaces?",
+        "answer": "It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses.\nIf you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."
+      },
+      {
+        "question": "Will I die if I get the Virus?",
+        "answer": "COVID 19 is not a death sentence. People with COVID-19 generally develop signs and symptoms, including mild respiratory symptoms and fever, on an average of 5-6 days after infection (mean incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19 virus have mild disease and recover."
+      },
+      {
+        "question": "How can I help the fight against Coronavirus Pandemic?",
+        "answer": "Report suspected cases as soon as possible. If you think you’re recently been in countries with cases of coronavirus outbreak or someone who have been contact with a confirmed cand having symptoms like High fever, sore throat, dry cough or difficulties in breathing . It’s advisable you take a test"
+      },
+      {
+        "question": "When will this Outbreak end?",
+        "answer": "No one has a specific date yet but the good news is that the world is united at this time to find a way to find a lasting solution to this pandemic as soon as possible."
+      }
+    ]
+  },
+  "Footer": {
+    "share": "Share with family and friends"
+  },
+  "Emergency": {
+    "heading": "Find Emergency lines & Test centers near you",
+    "placeholder": "Select your state or city"
+  },
+  "Checker": {
+    "heading": "Determine if you’re at risk or not",
+    "nextButton": "Next",
+    "backButton": "Back",
+    "HighRisk": {
+      "headline": "You're on High Risk",
+      "description": "Symptoms and history may indicate early stages of probable Coronavirus infection.",
+      "prescription": {}
+    },
+    "LowRisk": {
+      "headline": "You're on Low Risk",
+      "description": "",
+      "prescription": {
+        "title": "Precautions to reduce the risk of catching an infection",
+        "content": [
+          "Stay at home and do not step out unless it’s an emergency",
+          "Practice social distancing at home too",
+          "Disinfect surfaces such as doors, windows, kitchen slabs & bathroom floors",
+          "Stay hydrated and eat well-cooked, nutritious meals",
+          "Wash your hands regularly with soap and water for at least 20 seconds",
+          "Use a face mask (even while at home) if you are coughing or sneezing and while taking care of someone who is sick"
+        ]
+      }
+    },
+    "Quiz": [
+      {
+        "question": "Have you recently travel to countries with high cases of COVID 19 in the last 14- 20 days?",
+        "options": [
+          {
+            "answer": "Yes, I’ve travelled to countries with high cases",
+            "risk": "high"
+          },
+          {
+            "answer": "No, I haven’t travelled to countries with high cases",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Have you recently been in close contact with someone who has been confirmed positive to COVID 19 in the last 14-20 days?",
+        "options": [
+          {
+            "answer": "Yes, I had contact",
+            "risk": "high"
+          },
+          {
+            "answer": "No, I don’t know of any",
+            "risk": "low"
+          },
+          {
+            "answer": "Not Sure",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Do you have any of the following pre-existing conditions?",
+        "options": [
+          {
+            "answer": "Diabetes",
+            "risk": "high"
+          },
+          {
+            "answer": "High blood pressure",
+            "risk": "high"
+          },
+          {
+            "answer": "Heart conditions",
+            "risk": "high"
+          },
+          {
+            "answer": "Severe obesity (BMI >40)",
+            "risk": "high"
+          },
+          {
+            "answer": "Kidney diseases",
+            "risk": "high"
+          },
+          {
+            "answer": "Chronic lung diseases",
+            "risk": "high"
+          },
+          {
+            "answer": "Asthma",
+            "risk": "high"
+          },
+          {
+            "answer": "Cancer treatment or HIV/AIDS",
+            "risk": "high"
+          },
+          {
+            "answer": "None of the above",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "What age group do you belong to?",
+        "options": [
+          {
+            "answer": "Less than 65 years",
+            "risk": "low"
+          },
+          {
+            "answer": "Greater than or equal to 65 years",
+            "risk": "high"
+          }
+        ]
+      },
+      {
+        "question": "Is your body temperature above 37 degree Clesius?",
+        "options": [
+          {
+            "answer": "No",
+            "risk": "low"
+          },
+          {
+            "answer": "Yes",
+            "risk": "high"
+          }
+        ]
+      },
+      {
+        "question": "Have you persistently experienced any of these symptoms?",
+        "options": [
+          {
+            "answer": "Fever or severe chills",
+            "risk": "high"
+          },
+          {
+            "answer": "Consistent dry cough & sore throat",
+            "risk": "high"
+          },
+          {
+            "answer": "Difficulty in breathing",
+            "risk": "high"
+          },
+          {
+            "answer": "Moderate to severe body aches",
+            "risk": "high"
+          },
+          {
+            "answer": "Runny/ Blocked nose",
+            "risk": "high"
+          },
+          {
+            "answer": "Headaches",
+            "risk": "high"
+          },
+          {
+            "answer": "Wet cough (with mucus production)",
+            "risk": "high"
+          },
+          {
+            "answer": "Mild fatigue",
+            "risk": "high"
+          },
+          {
+            "answer": "None of the Above",
+            "risk": "low"
+          }
+        ]
+      },
+      {
+        "question": "Are your symptoms so severe that you are finding it difficult to do your usual activities?",
+        "options": [
+          {
+            "answer": "Yes - I am finding it difficult to go about my routine",
+            "risk": "high"
+          },
+          {
+            "answer": "No - I am feeling well enough to do my usual daily activities",
+            "risk": "low"
+          }
+        ]
+      }
+    ],
+    "DoctorChat": "Chat with a Doctor",
+    "FamilyAndFriends": "Ask your family and friends to take this test. Help them assess early-stage symptoms and receive timely medical help!",
+    "Disclaimer": "This is not medically proven. This may contain basic protective measures against the coronavirus. Such information is provided for information purposes only and is not meant to be a substitute for doctor advice."
+  }
+}
