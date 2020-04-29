@@ -42,26 +42,49 @@ export default function Footer() {
             ))}
           </SimpleGrid>
 
-          <Text fontSize="sm" mt={3}>
-            Yoruba translations by{" "}
-            <Link
-              textDecoration="underline"
-              target="_blank"
-              color="green.500"
-              href="https://www.twitter.com/iyayoruba"
-            >
-              Iya Yoruba
-            </Link>
-            , Igbo translations by{" "}
-            <Link
-              color="green.500"
-              target="_blank"
-              textDecoration="underline"
-              href="https://www.twitter.com/ogbonnaya_mark"
-            >
-              Maazi Ogbonnaya
-            </Link>
-          </Text>
+          <Stack align="center" spacing={6}>
+            <Text fontSize="sm">
+              Yoruba translations by{" "}
+              <Link
+                textDecoration="underline"
+                target="_blank"
+                color="green.500"
+                href="https://www.twitter.com/iyayoruba"
+              >
+                Iya Yoruba
+              </Link>
+              , Igbo translations by{" "}
+              <Link
+                color="green.500"
+                target="_blank"
+                textDecoration="underline"
+                href="https://www.twitter.com/ogbonnaya_mark"
+              >
+                Maazi Ogbonnaya
+              </Link>
+            </Text>
+
+            <Text fontSize="sm" fontWeight="bold">
+              Built with <Icon name="heart" /> by{" "}
+              <Link
+                textDecoration="underline"
+                target="_blank"
+                color="green.500"
+                href="https://www.twitter.com/lanreadeloye"
+              >
+                Lanre Adeloye
+              </Link>{" "}
+              and{" "}
+              <Link
+                color="green.500"
+                target="_blank"
+                textDecoration="underline"
+                href="https://www.twitter.com/busybenson"
+              >
+                Godwin Benson
+              </Link>
+            </Text>
+          </Stack>
         </Stack>
       </Box>
     </Box>
