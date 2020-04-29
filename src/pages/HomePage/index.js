@@ -12,16 +12,10 @@ import Prevention from "./Prevention";
 import QuickActions from "./QuickActions";
 import QuickLinks from "./QuickLinks";
 import Symptoms from "./Symptoms";
-import { Helmet } from "react-helmet";
 
 export default function HomePage() {
   return (
     <Box>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Corona Nigeria | Let's Fight Corona Together</title>
-        <link rel="canonical" href="http://coronanigeria.org/" />
-      </Helmet>
       <Header />
       <JumboTron />
       <Flex mt={16} maxW="1680px" mx="auto">
