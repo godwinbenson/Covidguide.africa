@@ -1,4 +1,12 @@
-import { Box, Button, Icon, SimpleGrid, Stack, Text } from "@chakra-ui/core";
+import {
+  Box,
+  Button,
+  Icon,
+  SimpleGrid,
+  Stack,
+  Link,
+  Text,
+} from "@chakra-ui/core";
 import React, { useContext } from "react";
 import useTranslator from "../useTranslator";
 import { AppContext } from "../AppProvider";
@@ -33,6 +41,27 @@ export default function Footer() {
               </Button>
             ))}
           </SimpleGrid>
+
+          <Text fontSize="sm" mt={3}>
+            Yoruba translations by{" "}
+            <Link
+              textDecoration="underline"
+              target="_blank"
+              color="green.500"
+              href="https://www.twitter.com/iyayoruba"
+            >
+              Iya Yoruba
+            </Link>
+            , Igbo translations by{" "}
+            <Link
+              color="green.500"
+              target="_blank"
+              textDecoration="underline"
+              href="https://www.twitter.com/ogbonnaya_mark"
+            >
+              Maazi Ogbonnaya
+            </Link>
+          </Text>
         </Stack>
       </Box>
     </Box>

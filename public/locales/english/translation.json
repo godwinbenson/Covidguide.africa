@@ -1,12 +1,12 @@
 {
   "Jumbotron": {
-    "title": "Let's fight Corona Virus together"
+    "title": "Let's fight Coronavirus together"
   },
   "Homepage": {
     "quickLinks": [
       { "link": "Quick Links", "id": "Quick Links" },
       { "link": "Live Data", "id": "Live Data" },
-      { "link": "What is Corona Virus", "id": "What is Corona Virus" },
+      { "link": "What is Coronavirus", "id": "What is Coronavirus" },
       { "link": "Symptoms", "id": "Symptoms" },
       { "link": "Prevention", "id": "Prevention" },
       { "link": "Debunking Myths", "id": "Debunking Myths" },
@@ -42,13 +42,13 @@
     "deaths": "Deaths"
   },
   "Definition": {
-    "heading": "What is Corona Virus (Also known as Covid-19)?",
+    "heading": "What is Coronavirus (Also known as Covid-19)?",
     "description": "Coronavirus (COVID-19) is a infectious disease caused by a new virus that began in Wuhan, China in December 2019. The disease causes respiratory illness (like the flu) with symptoms such as cough, fever, and in some severe cases, difficulty in breathing.",
     "subHeading": "How it spreads?",
     "howItSpreads": "Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose or mouth."
   },
   "Symptoms": {
-    "heading": "Symtoms of Corona Virus",
+    "heading": "Symtoms of Coronavirus",
     "content": [
       {
         "name": "High fever",

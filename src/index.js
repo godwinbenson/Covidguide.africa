@@ -6,6 +6,7 @@ import App from "./App";
 import "./i18n";
 import { customTheme } from "./theme";
 import { AppProvider } from "./AppProvider";
+import Favicon from "react-favicon";
 
 export const GlobalFonts = css`
   @font-face {
@@ -56,6 +57,7 @@ const RootApp = () => {
         <CSSReset />
         <Global styles={GlobalFonts} />
         <AppProvider>
+          <Favicon url="https://i.ibb.co/HKmNJ4q/Screen-Shot-2020-04-29-at-10-28-37-AM.png" />
           <App />
         </AppProvider>
       </ThemeProvider>
