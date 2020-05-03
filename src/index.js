@@ -7,7 +7,6 @@ import "./i18n";
 import { customTheme } from "./theme";
 import { AppProvider } from "./AppProvider";
 import Favicon from "react-favicon";
-import { Helmet } from "react-helmet";
 
 export const GlobalFonts = css`
   @font-face {
@@ -62,32 +61,6 @@ const RootApp = () => {
 
         <AppProvider>
           <Favicon url={favicon} />
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>Corona Guide | Let's Fight Coronavirus Together</title>
-            <link rel="canonical" href="https://www.covidguide.africa/" />
-            <meta
-              property="og:title"
-              content="Let's fight coronavirus together - Covidguide.africa"
-            />
-            <meta
-              property="og:description"
-              content="Resources to help Africans with information about test centers, treatments and resources to fight for COVID 19.."
-            />
-            <meta property="og:image" content={favicon} />
-            <meta property="og:url" content="https://www.covidguide.africa/" />
-
-            <meta
-              name="twitter:title"
-              content="Let's fight coronavirus together - Covidguide.africa"
-            />
-            <meta
-              name="twitter:description"
-              content=" Resources to help Africans with information about test centers, treatments and resources to fight for COVID 19."
-            />
-            <meta name="twitter:image" content={favicon} />
-            <meta name="twitter:card" content="logo_large_image"></meta>
-          </Helmet>
           <App />
         </AppProvider>
       </ThemeProvider>
